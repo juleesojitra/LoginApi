@@ -17,7 +17,6 @@ interface APIService {
     @POST("auth/login")
     fun login(@Body loginRequest: LoginRequest): Call<LoginResponse?>
 
-
     @POST("auth/socialLogin")
     fun socialLogin(@Body socialLoginRequest: SocialLoginRequest): Call<LoginResponse?>
 
