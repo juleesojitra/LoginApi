@@ -12,9 +12,6 @@ object RetrofitClient {
 const val IMAGE_URL =
        " url" // Development
 
-    const val webSocketUrl =
-      "url" // Development
-
     val getClient: APIService
         get() {
             val gson = GsonBuilder()
