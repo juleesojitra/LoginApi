@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LoginApi</string>
+    <string name="serverNotResponding">Server not responding!</string>
+
+
+    <!--Facebook -->
+    <string name="facebook_app_id">67123829134823938</string>
+<!--    1344918869405830-->
+
+    <string name="fb_login_protocol_scheme">fb67123829134823938</string>
+    <string name="facebook_client_token">43t45r34536554665676572526</string>
+<!--    640a056601e2dad9ada1f33181b8d5f8-->
+    <!--    Google-->
+    <string name="GOOGLE_CLIENT_ID">1076565674272-gufhew767898768hweufhweufwfffwe.apps.googleusercontent.com</string>
+
+<!--    1076542209272-d79dp20nmm7va5r9t5883a5e6icfbjuv.apps.googleusercontent.com-->
+</resources>
