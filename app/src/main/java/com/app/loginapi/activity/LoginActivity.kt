@@ -1,4 +1,4 @@
-package com.app.loginapi
+package com.app.loginapi.activity
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -15,10 +15,14 @@ import android.text.TextUtils
 import android.util.Base64
 import android.util.Log
 import android.widget.Toast
+import com.app.loginapi.MediaUploadResponse
+import com.app.loginapi.R
+import com.app.loginapi.request.SocialLoginRequest
 import com.app.loginapi.apiCalling.RetrofitClient
 import com.app.loginapi.databinding.ActivityLoginBinding
 import com.app.loginapi.instagramAuth.ApplicationData
 import com.app.loginapi.instagramAuth.InstagramApp
+import com.app.loginapi.response.LoginResponse
 import com.app.loginapi.utils.Const
 import com.app.loginapi.utils.PreferenceManager
 import com.app.loginapi.utils.Utils

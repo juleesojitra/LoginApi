@@ -1,4 +1,4 @@
-package com.app.loginapi
+package com.app.loginapi.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -10,6 +10,8 @@ import com.app.loginapi.apiCalling.RetrofitClient
 import com.app.loginapi.utils.Const
 import com.app.loginapi.utils.PreferenceManager
 import com.app.loginapi.databinding.ActivityMainBinding
+import com.app.loginapi.request.LoginRequest
+import com.app.loginapi.response.LoginResponse
 import com.app.loginapi.utils.Utils
 import com.google.gson.Gson
 import es.dmoral.toasty.Toasty

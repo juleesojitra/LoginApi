@@ -1,4 +1,4 @@
-package com.app.loginapi
+package com.app.loginapi.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.viewpager.widget.PagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.app.loginapi.R
 import com.google.android.material.imageview.ShapeableImageView
 
 class ViewPagerAdapter(var context: Context, var imgList: IntArray) : PagerAdapter() {

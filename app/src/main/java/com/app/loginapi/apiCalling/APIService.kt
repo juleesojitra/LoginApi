@@ -1,16 +1,12 @@
 package com.app.loginapi.apiCalling
-
-
-import com.app.loginapi.LoginRequest
-import com.app.loginapi.LoginResponse
+import com.app.loginapi.request.LoginRequest
+import com.app.loginapi.response.LoginResponse
 import com.app.loginapi.MediaUploadResponse
-import com.app.loginapi.SocialLoginRequest
+import com.app.loginapi.request.SocialLoginRequest
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import retrofit2.Call
 import retrofit2.http.*
-
-
 interface APIService {
 
     //Auth

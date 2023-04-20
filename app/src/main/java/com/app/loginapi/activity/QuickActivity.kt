@@ -1,4 +1,4 @@
-package com.app.loginapi
+package com.app.loginapi.activity
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -6,13 +6,12 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Handler
 import androidx.annotation.RequiresApi
 import androidx.viewpager.widget.ViewPager
+import com.app.loginapi.R
+import com.app.loginapi.adapter.ViewPagerAdapter
 
 import com.app.loginapi.databinding.ActivityQuickBinding
-import com.app.loginapi.utils.Const
-import com.google.gson.Gson
 
 class QuickActivity : AppCompatActivity() {
 

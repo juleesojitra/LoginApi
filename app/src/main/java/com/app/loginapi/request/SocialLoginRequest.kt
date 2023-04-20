@@ -1,4 +1,4 @@
-package com.app.loginapi
+package com.app.loginapi.request
 
 data class SocialLoginRequest(
     val `data`: Data

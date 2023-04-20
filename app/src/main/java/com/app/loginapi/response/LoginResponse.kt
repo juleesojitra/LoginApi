@@ -1,4 +1,4 @@
-package com.app.loginapi
+package com.app.loginapi.response
 
 data class LoginResponse(
     val `data`: Data,
